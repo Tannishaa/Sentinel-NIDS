@@ -1,0 +1,24 @@
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python Virtual Environments & Cache
+__pycache__/
+venv/
+env/
+.pytest_cache/
+
+# Ignore large Machine Learning Datasets
+*.csv
+*.txt
+KDDTrain+*
+
+# Ignore compiled C++ files (For Sonika)
+*.exe
+*.o
+*.out
+
+# Ignore Java/React build folders (For Trisha)
+target/
+node_modules/
+build/
