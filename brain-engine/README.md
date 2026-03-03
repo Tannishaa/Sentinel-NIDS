@@ -5,7 +5,7 @@ This module acts as the intelligence center for the Sentinel NIDS project. It re
 If an attack is detected, it forwards a JSON alert to the Java Spring Boot Manager Dashboard.
 
 ## Tech Stack
-* **Language:** Python 3.9+ [cite: 220]
+* **Language:** Python 3.9+ 
 * **Libraries:** Scikit-Learn, Pandas, Joblib, Requests, Socket 
 * **Dataset:** NSL-KDD (Used for offline training) 
 
